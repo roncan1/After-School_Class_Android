@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+
+        <TextView
+            android:text="이름"
+            android:textSize="24dp"
+            android:padding="10dp"/>
+        <TextView
+            android:text="신댕민"
+            android:textSize="24dp"
+            android:padding="10dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="나이"
+            android:textSize="24dp"
+            android:padding="10dp"/>
+        <TextView
+            android:text="서른마흔다섯살"
+            android:textSize="24dp"
+            android:padding="10dp"/>
+    </TableRow>
+</TableLayout>
